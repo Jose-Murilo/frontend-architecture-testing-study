@@ -45,4 +45,4 @@ next-env.d.ts
 
 # Prisma
 /src/app/generated/
-/app/generated/
+/src/generated/
