@@ -82,4 +82,61 @@ Regra prática:
 
 # Microserviços
 
+- Microserviços são um estilo arquitetural no qual um sistema é dividido em serviços menores e independentes.
+  -- Cada serviço é responsável por uma capacidade específica do negócio.
+  -- Cada serviço pode ser desenvolvido, implantado e escalado de forma independente.
+  -- Os serviços se comunicam por APIs ou eventos.
+
+Características:
+
+- Responsabilidade única.
+- Deploy independente.
+- Escalabilidade independente.
+- Baixo acoplamento entre serviços.
+- Comunicação pela rede.
+
+Monólito VS Microserviços
+
+- Monólito:
+  -- Uma única aplicação.
+  -- Um único deploy.
+  -- Menor complexidade.
+
+Microserviços:
+
+- Várias aplicações independentes.
+- Deploy independente para cada serviço.
+- Maior flexibilidade e escalabilidade.
+- Maior complexidade operacional.
+
+Comunicação
+
+- Síncrona:
+
+-- Espera uma resposta imediata.
+-- Exemplo: HTTP e gRPC.
+
+Assíncrona:
+
+- Publica eventos ou mensagens.
+- Exemplo: RabbitMQ e Kafka.
+
+- Vantagens
+  -- Escalabilidade.
+  -- Independência.
+  -- Melhor separação de responsabilidades.
+  -- Isolamento de falhas.
+
+- Desvantagens
+  -- Maior complexidade.
+  -- Comunicação pela rede.
+  -- Mais infraestrutura e monitoramento.
+
+Princípio importante:
+
+- Microserviços não são melhores que monólitos.
+- A escolha depende dos requisitos e dos trade-offs do sistema.
+
 # Seveless
+
+# Arquitetura orientada a eventos:
